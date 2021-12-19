@@ -11,7 +11,7 @@ public class WishMessaheGenerator {
 	private LocalDateTime date;
 	 
 public String generateWishMessage(String user) {
-	System.out.println("generateWishMessage() date:: "+date);
+	System.out.println("generateWishMessage()  date:: "+date);
 	int hour=date.getHour();
 	if(hour<12)
 		return "good morning" +user;
